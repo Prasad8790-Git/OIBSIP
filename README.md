@@ -19,6 +19,7 @@ OIBSIP/
     ├── style.css
     ├── README.md
     └── screenshots/
+    
 🎯 Objectives Achieved
 Created a structured webpage layout using HTML.
 Designed a modern and attractive UI using CSS.
@@ -26,20 +27,22 @@ Implemented responsiveness for mobile, tablet, and desktop devices.
 Enhanced user experience through interactive elements.
 📸 Screenshot
 Add your project screenshots inside the screenshots folder and update the image path below:
-
 screenshots/landing-page.png
+
 ⚙️ How to Run the Project
 Clone the repository:
 git clone https://github.com/your-username/OIBSIP.git
 Navigate to the project folder:
 cd OIBSIP/WebDev-L1-LandingPage
 Open index.html in your browser.
+
 💡 Learning Outcomes
 Improved HTML page structuring skills
 Learned responsive web design concepts
 Enhanced CSS styling techniques
 Practiced JavaScript integration
 Gained experience with Git and GitHub version control
+
 👨‍💻 Author
 Durga Prasad Marisa
 
