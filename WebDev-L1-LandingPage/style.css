@@ -1,0 +1,238 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #b1e3ac;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #b1e3ac;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #15951f;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #21d830;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 500px;
+    padding: 100px 8%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(120deg, #11172a, #4c7a52);
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #21d830;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #d0d3df;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    width: 450px;
+    margin-left: 40px;
+    height: auto;
+    justify-content: right;
+}
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #21d830;
+    color: #11172a;
+    padding: 14px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* Common Sections */
+section {
+    padding: 75px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    text-align: center;
+    color: #911b1b;
+    margin-bottom: 45px;
+}
+
+/* Features */
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: #1f3d25b4;
+    padding: 30px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #21d830;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.card p {
+    color: #fafafa;
+}
+
+/* About Section */
+.about {
+    background: #122211;
+    text-align: center;
+}
+
+.about p {
+    max-width: 750px;
+    margin: auto;
+    color: #f4f4f4;
+    font-size: 17px;
+}
+
+/* Call To Action */
+.cta {
+    text-align: center;
+    background: linear-gradient(120deg, #11172a, #4c7a52);
+}
+
+.cta h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.cta p {
+    margin-bottom: 25px;
+    color: #d0d3df;
+}
+
+/* Footer */
+footer {
+    background: #b1e3ac;
+    text-align: center;
+    padding: 30px 8%;
+    color: #6d0606;
+}
+
+footer a {
+    color: #169020;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: #f0f1f0;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 75px 8%;
+        min-height: 400px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 29px;
+    }
+
+    .cta h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    nav ul {
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
