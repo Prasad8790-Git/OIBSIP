@@ -47,7 +47,7 @@ temperature-converter/
 - Responsive web design
 
 👨‍💻 Author
-Durga Prasad Marisa
+  Durga Prasad Marisa
 - GitHub: https://github.com/Prasad8790-Git
 - Email: durgaprasadmarisa9550@gmail.com
 
